@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.sniskus.helix"
-version = "1.0.0"
+version = "1.0.1"
 
 java {
     toolchain.languageVersion.set(JavaLanguageVersion.of(21))
