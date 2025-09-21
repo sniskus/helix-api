@@ -14,7 +14,7 @@ import static java.lang.annotation.ElementType.*;
  */
 @Documented
 @Pattern(Identifier.PATTERN)
-@Target({ TYPE_USE, METHOD, PARAMETER })
+@Target({ FIELD, METHOD, PARAMETER, LOCAL_VARIABLE, TYPE_PARAMETER, TYPE_USE, RECORD_COMPONENT })
 public @interface Identifier {
 
 	/**
